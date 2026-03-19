@@ -29,8 +29,9 @@ def clau_bonus(row):
 df["bonus"] = df.apply(clau_bonus, axis=1)
 
 #muc luong chọn
-muc_luong_chon = st.slider("chọn mức luong: ", 0 , 50000, 10000) 
-chon_phong_ban = st.selectbox("chọn phòng ban", ["all","IT","HC","VC","AC","H1"])
+st.sidebar.header("bộ lọc")
+muc_luong_chon = st.sidebar.slider("chọn mức luong: ", 0 , 50000, 10000) 
+chon_phong_ban = st.sidebar.selectbox("chọn phòng ban", ["all","IT","HC","VC","AC","H1"])
 
 if chon_phong_ban == "all":
     df_loc = df[(df["lương"] >= muc_luong_chon)]
