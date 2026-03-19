@@ -9,7 +9,7 @@ st.title(" Dashboard Phân Tích Nhân Sự")
 name = ["Anh", "Duy", "Linh", "Tâm", "Trân", "Bảo", "Chi", "Dũng", "Giang", "Hương", "Khánh", "Lan", "Minh", "Nam", "Phong", "Quân", "Sơn", "Thảo", "Vinh", "Yến"]
 depart =["IT", "HC", "VC", "AC", "H1"]
 
-data[]
+data = []
 for i in range (1,101):
     data.append[{
         "name" : f"{random.choice(name)} {i}",
