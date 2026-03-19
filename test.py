@@ -13,7 +13,7 @@ data = []
 for i in range (1,101):
     data.append[{
         "name" : f"{random.choice(name)} {i}",
-        "lương" : random.randit(5000,40000),
+        "lương" : random.randint(5000,40000),
         "phòng ban" : random.choice(depart)
     }]
     
