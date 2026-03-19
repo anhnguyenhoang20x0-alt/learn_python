@@ -11,9 +11,12 @@ depart =["IT", "HC", "VC", "AC", "H1"]
 
 data[]
 for i in range (1,101):
-    data.append
+    data.append[{
+        "name" : f"{random.choice(name)} {i}",
+        "lương" : random.randit(5000,40000),
+        "phòng ban" : random.choice(depart)
+    }]
     
-
 # gan du lieu
 df = pd.DataFrame(data)
 
