@@ -1,17 +1,18 @@
 import streamlit as st
 import pandas as pd
+import random
 
 #1 tạo bẳng
 st.title(" Dashboard Phân Tích Nhân Sự")
 
 #2 khai báo dữ liệu
-data = [
-    {"name": "anh" ,"lương": 20000, "phòng ban":"IT"},
-    {"name": "duy" ,"lương": 28000, "phòng ban":"HC"},
-    {"name": "linh" ,"lương": 10000, "phòng ban":"VC"},
-    {"name": "tâm" ,"lương": 26000, "phòng ban":"AC"},
-    {"name": "trân" ,"lương": 12000, "phòng ban":"H1"},
-]
+name = ["Anh", "Duy", "Linh", "Tâm", "Trân", "Bảo", "Chi", "Dũng", "Giang", "Hương", "Khánh", "Lan", "Minh", "Nam", "Phong", "Quân", "Sơn", "Thảo", "Vinh", "Yến"]
+depart =["IT", "HC", "VC", "AC", "H1"]
+
+data[]
+for i in range (1,101):
+    data.append
+    
 
 # gan du lieu
 df = pd.DataFrame(data)
